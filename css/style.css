@@ -1,0 +1,305 @@
+body {
+	margin: 0;
+
+	font-family: 'Montserrat', Tahoma, Arial, sans-serif;
+	font-size: 35px;
+	line-height: 1.23;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+}
+
+.container {
+	width: 100%;
+	max-width: 1860px;
+
+	margin: 0 auto;
+}
+
+
+
+/* Page
+====================*/
+
+.page {
+	width: 100%;
+	height: 100vh;
+	position: relative;
+
+	background: #fff url("../img/maxresdefault.jpg") center no-repeat;
+	background-size: cover;
+}
+
+
+
+/* Header
+====================*/
+
+.header {
+	padding: 20px 0;
+	margin-bottom: 230px;
+}
+
+.header-inner {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header-brand {
+	font-size: 24px;
+	color: #fff;
+	font-weight: 700;
+	text-shadow: 2px 2px 3px black;
+}
+
+.header-nav {
+	display: flex;
+}
+
+.header-nav-link {
+	margin-left: 50px;
+
+	color: #fff;
+	font-size: 20px;
+	font-weight: 700;
+	text-decoration: none;
+	text-shadow: 2px 2px 3px black;
+
+	transition: color .2s linear;
+}
+
+.header-nav-link:hover {
+	color: #15ff00;
+}
+
+.header-other {
+	background-color: #388229;
+	
+	margin-bottom: 100px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 1920px;
+}
+
+/* Cover
+====================*/
+
+.cover {
+	width: 1100px;
+	height: 184px;
+
+	margin: 0 auto;
+}
+
+.title {
+	font-size: 90px;
+	color: #fff;
+	font-weight: 500;
+	text-align: center;
+	text-shadow: 2px 2px 3px black;
+
+	margin-bottom: 85px;
+}
+
+
+
+/* Content
+====================*/
+
+.sub-title {
+	text-align: center;
+	color: #178745;
+	font-weight: 500;
+
+	margin: 115px auto 0 auto;
+}
+
+.paragraph {
+	font-size: 37px;
+
+	margin: 40px 80px;
+	padding: 0 10px 0 10px;
+}
+
+.paragraph-link {
+	position: relative;
+	text-decoration: none;
+	
+	color: #3f3f3f;
+}
+
+.paragraph-link::before {
+	content: '';
+	bottom: 0;
+	left: 0;
+	position: absolute;
+	width: 100%;
+	height: 2px;
+	background-color: #000;
+	transition: 0.2s;
+	transform: scaleX(0);
+}
+
+.paragraph-link:hover {
+	color: #000;
+}
+
+.paragraph-link:hover::before {
+	transform: scaleX(1);
+}
+
+
+
+/* Btn
+=======================*/
+
+.btn {
+	display: block;
+	padding: 12px 35px;
+	margin: 0 auto;
+
+	font-family: inherit;
+	font-size: 25px;
+	line-height: 1.1;
+	color: #fff;
+	font-weight: 500;
+	text-decoration: none;
+	text-shadow: 1px 1px 1px black;
+
+	cursor: pointer;
+	border: 0;
+	background-color: #388229;
+	border-radius: 6px;
+
+	transition: background-color .2s linear;
+
+	width: 226px;
+	height: 52px;
+}
+
+.btn:hover {
+	background-color: #2d6921;
+}
+
+
+
+/* Main
+=======================*/
+
+.text {
+	width: 100%;
+	max-width: 1600px;
+
+	font-size: 32px;
+
+	margin: 0 auto;
+	text-indent: 77px;
+	text-align: justify;
+}
+
+.sub-title-min {
+	font-weight: 500;
+	text-align: center;
+
+	margin: 40px 0 50px 0;
+}
+
+.info {
+	margin: 50px 0 57px 0;
+}
+
+p {
+	margin: 0 0 26px;
+}
+
+.line-text {
+	text-indent: 0;
+}
+
+/* Image
+=======================*/
+
+.shem {
+	display: block;
+	width: 1200px;
+	margin: 0 auto;
+	padding-top: 10px;
+}
+
+
+
+/* Table
+=======================*/
+
+.table {
+	width: 100%;
+	border: 2px solid black;
+	border-collapse: collapse;
+
+	padding: 20px;
+
+	text-align: justify;
+}
+
+.table-header {
+	font-weight: 500;
+	text-align: center;
+
+	margin: 0 0 50px 0;
+}
+
+.table th {
+	border: 2px solid black;
+}
+
+.table td {
+	border: 2px solid black;
+}
+
+.table-big {
+	width: 1760px;
+
+	font-size: 28px;
+
+	margin: 0 auto;
+	padding-bottom: 20px;
+}
+
+.line {
+	text-align: center;
+}
+
+
+/* Footer
+=======================*/
+
+.footer {
+	display: flex;
+	justify-content: space-around;
+	
+	padding:20px 0 95px;
+
+	font-size: 30px;
+	text-align: center;
+}
+
+.first-paragraph-link {
+	padding-top: 50px;
+}
+
+.nonemain-link {
+	color: #205315;
+}
+
+.small {
+	font-size: 23px;
+}
