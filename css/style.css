@@ -50,6 +50,11 @@ h1, h2, h3, h4, h5, h6 {
 	width: 100%;
 }
 
+.header-sitemap {
+	padding: 20px 0;
+	margin-bottom: -70px;
+}
+
 .header-main {
 	padding: 20px 0;
 	margin-bottom: 230px;
@@ -324,6 +329,11 @@ th {
 		font-size: 60px;
 	}
 
+	.sub-title {
+		font-size: 35px;
+		padding-top: 10px;
+	}
+
 	/* page */
 	.page {
 		min-height: 100vh;
@@ -352,6 +362,10 @@ th {
 
 	.table-big {
 		font-size: 25px;
+	}
+
+	.paragraph {
+		font-size: 26px;
 	}
 
 }
@@ -389,6 +403,10 @@ th {
 	/* Main */
 	.text {
 		font-size: 21px;
+	}
+
+	.paragraph {
+		margin-left: 60px;
 	}
 
 	/* Table */
