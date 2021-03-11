@@ -322,6 +322,32 @@ th {
 /* Media
 =======================*/
 
+@media (max-width: 1024px) {
+
+	/* Header */
+	.sub-title-min {
+		margin: 15px;
+	}
+
+	/* Main */
+	.info {
+	margin: 15px 8px;
+	}
+
+	.shem {
+	margin: 20px 5px;
+	}
+
+	.table {
+		margin: 0 10px;
+	}
+
+	.paragraph-link {
+		margin: 0 10px;
+	}
+
+}
+
 @media (max-width: 767px) {
 
 	/* Title */
@@ -406,7 +432,7 @@ th {
 	}
 
 	.paragraph {
-		margin-left: 60px;
+		margin-left: 45px;
 	}
 
 	/* Table */
